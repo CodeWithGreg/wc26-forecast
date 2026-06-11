@@ -1,0 +1,72 @@
+day,round,time_fr,home_fr,away_fr,home_team,away_team,pts_h,pts_d,pts_a,crowd_h,crowd_d,crowd_a
+Vendredi 12 juin,J.1,4h00,Corée du Sud,Tchéquie,South Korea,Czech Republic,96,107,91,31,50,19
+Vendredi 12 juin,J.1,21h00,Canada,Bosnie,Canada,Bosnia and Herzegovina,65,117,125,60,23,17
+Samedi 13 juin,J.1,3h00,États-Unis,Paraguay,United States,Paraguay,74,113,115,63,21,16
+Samedi 13 juin,J.1,21h00,Qatar,Suisse,Qatar,Switzerland,172,141,33,6,7,87
+Dimanche 14 juin,J.1,0h00,Brésil,Maroc,Brazil,Morocco,55,122,140,51,31,19
+Dimanche 14 juin,J.1,3h00,Haïti,Écosse,Haiti,Scotland,154,131,44,4,9,87
+Dimanche 14 juin,J.1,6h00,Australie,Turquie,Australia,Turkey,126,115,66,9,23,68
+Dimanche 14 juin,J.1,19h00,Allemagne,Curaçao,Germany,Curaçao,15,179,222,97,2,1
+Dimanche 14 juin,J.1,22h00,Pays-Bas,Japon,Netherlands,Japan,74,115,113,61,25,14
+Lundi 15 juin,J.1,1h00,Côte d’Ivoire,Équateur,Ivory Coast,Ecuador,108,101,85,43,42,14
+Lundi 15 juin,J.1,4h00,Suède,Tunisie,Sweden,Tunisia,72,110,122,62,27,11
+Lundi 15 juin,J.1,18h00,Espagne,Cap-Vert,Spain,Cape Verde,16,166,217,98,1,1
+Lundi 15 juin,J.1,21h00,Belgique,Égypte,Belgium,Egypt,57,122,135,80,15,5
+Mardi 16 juin,J.1,0h00,Arabie saoudite,Uruguay,Saudi Arabia,Uruguay,146,125,50,6,14,81
+Mardi 16 juin,J.1,3h00,Iran,Nouvelle-Zélande,Iran,New Zealand,63,116,130,36,44,20
+Mardi 16 juin,J.1,21h00,France,Sénégal,France,Senegal,46,128,153,88,9,3
+Mercredi 17 juin,J.1,0h00,Irak,Norvège,Iraq,Norway,178,144,30,2,6,92
+Mercredi 17 juin,J.1,3h00,Argentine,Algérie,Argentina,Algeria,43,129,159,80,14,6
+Mercredi 17 juin,J.1,6h00,Autriche,Jordanie,Austria,Jordan,38,136,163,84,13,3
+Mercredi 17 juin,J.1,19h00,Portugal,RD Congo,Portugal,DR Congo,34,140,170,96,3,1
+Mercredi 17 juin,J.1,22h00,Angleterre,Croatie,England,Croatia,59,119,133,57,35,8
+Jeudi 18 juin,J.1,1h00,Ghana,Panama,Ghana,Panama,73,113,116,60,33,7
+Jeudi 18 juin,J.1,4h00,Ouzbékistan,Colombie,Uzbekistan,Colombia,157,130,44,3,7,90
+Jeudi 18 juin,J.2,18h00,Tchéquie,Afrique du Sud,Czech Republic,South Africa,62,112,142,56,28,16
+Jeudi 18 juin,J.2,21h00,Suisse,Bosnie,Switzerland,Bosnia and Herzegovina,76,108,134,77,19,5
+Vendredi 19 juin,J.2,0h00,Canada,Qatar,Canada,Qatar,71,104,148,78,16,6
+Vendredi 19 juin,J.2,3h00,Mexique,Corée du Sud,Mexico,South Korea,69,117,129,61,28,12
+Vendredi 19 juin,J.2,21h00,États-Unis,Australie,United States,Australia,58,119,153,67,24,9
+Samedi 20 juin,J.2,0h00,Écosse,Maroc,Scotland,Morocco,99,112,91,7,24,70
+Samedi 20 juin,J.2,2h30,Brésil,Haïti,Brazil,Haiti,21,167,198,97,2,1
+Samedi 20 juin,J.2,5h00,Turquie,Paraguay,Turkey,Paraguay,84,113,126,59,30,11
+Samedi 20 juin,J.2,19h00,Pays-Bas,Suède,Netherlands,Sweden,67,122,131,65,28,7
+Samedi 20 juin,J.2,22h00,Allemagne,Côte d’Ivoire,Germany,Ivory Coast,38,137,164,81,13,6
+Dimanche 21 juin,J.2,2h00,Équateur,Curaçao,Ecuador,Curaçao,41,143,168,85,12,3
+Dimanche 21 juin,J.2,6h00,Tunisie,Japon,Tunisia,Japan,118,103,91,15,29,56
+Dimanche 21 juin,J.2,18h00,Espagne,Arabie saoudite,Spain,Saudi Arabia,31,139,176,97,2,1
+Dimanche 21 juin,J.2,21h00,Belgique,Iran,Belgium,Iran,39,138,171,93,5,2
+Lundi 22 juin,J.2,0h00,Uruguay,Cap-Vert,Uruguay,Cape Verde,72,109,137,87,10,3
+Lundi 22 juin,J.2,3h00,Nouvelle-Zélande,Égypte,New Zealand,Egypt,148,116,59,10,20,70
+Lundi 22 juin,J.2,19h00,Argentine,Autriche,Argentina,Austria,63,105,132,85,12,3
+Lundi 22 juin,J.2,23h00,France,Irak,France,Iraq,22,166,189,98,1,1
+Mardi 23 juin,J.2,2h00,Norvège,Sénégal,Norway,Senegal,64,105,137,34,42,25
+Mardi 23 juin,J.2,5h00,Jordanie,Algérie,Jordan,Algeria,152,139,67,4,13,83
+Mardi 23 juin,J.2,19h00,Portugal,Ouzbékistan,Portugal,Uzbekistan,24,154,173,97,2,1
+Mardi 23 juin,J.2,22h00,Angleterre,Ghana,England,Ghana,44,127,162,89,8,3
+Mercredi 24 juin,J.2,1h00,Panama,Croatie,Panama,Croatia,165,123,36,3,7,89
+Mercredi 24 juin,J.2,4h00,Colombie,RD Congo,Colombia,DR Congo,77,111,123,71,23,6
+Mercredi 24 juin,J.3,21h00,Suisse,Canada,Switzerland,Canada,68,106,129,54,38,8
+Mercredi 24 juin,J.3,21h00,Bosnie,Qatar,Bosnia and Herzegovina,Qatar,87,102,120,56,33,11
+Jeudi 25 juin,J.3,0h00,Écosse,Brésil,Scotland,Brazil,145,124,48,4,8,88
+Jeudi 25 juin,J.3,0h00,Maroc,Haïti,Morocco,Haiti,29,159,187,95,3,2
+Jeudi 25 juin,J.3,3h00,Tchéquie,Mexique,Czech Republic,Mexico,109,99,91,10,43,47
+Jeudi 25 juin,J.3,3h00,Afrique du Sud,Corée du Sud,South Africa,South Korea,117,103,87,15,34,51
+Jeudi 25 juin,J.3,22h00,Équateur,Allemagne,Ecuador,Germany,145,129,42,4,12,84
+Jeudi 25 juin,J.3,22h00,Curaçao,Côte d’Ivoire,Curaçao,Ivory Coast,163,118,53,3,7,90
+Vendredi 26 juin,J.3,1h00,Tunisie,Pays-Bas,Tunisia,Netherlands,131,123,56,5,14,81
+Vendredi 26 juin,J.3,1h00,Japon,Suède,Japan,Sweden,96,108,111,32,47,20
+Vendredi 26 juin,J.3,4h00,Turquie,États-Unis,Turkey,United States,109,102,93,33,42,25
+Vendredi 26 juin,J.3,4h00,Paraguay,Australie,Paraguay,Australia,74,104,131,53,33,14
+Vendredi 26 juin,J.3,21h00,Norvège,France,Norway,France,141,108,68,5,18,77
+Vendredi 26 juin,J.3,21h00,Sénégal,Irak,Senegal,Iraq,54,115,149,91,6,2
+Samedi 27 juin,J.3,2h00,Uruguay,Espagne,Uruguay,Spain,143,112,57,3,14,83
+Samedi 27 juin,J.3,2h00,Cap-Vert,Arabie saoudite,Cape Verde,Saudi Arabia,99,123,94,14,55,31
+Samedi 27 juin,J.3,5h00,Nouvelle-Zélande,Belgique,New Zealand,Belgium,172,129,32,3,5,92
+Samedi 27 juin,J.3,5h00,Égypte,Iran,Egypt,Iran,85,114,123,65,29,6
+Samedi 27 juin,J.3,23h00,Panama,Angleterre,Panama,England,168,137,32,2,3,94
+Samedi 27 juin,J.3,23h00,Croatie,Ghana,Croatia,Ghana,57,120,138,73,21,6
+Dimanche 28 juin,J.3,1h30,Colombie,Portugal,Colombia,Portugal,154,102,55,5,19,76
+Dimanche 28 juin,J.3,1h30,RD Congo,Ouzbékistan,DR Congo,Uzbekistan,63,107,158,63,30,7
+Dimanche 28 juin,J.3,4h00,Jordanie,Argentine,Jordan,Argentina,165,145,32,2,3,95
+Dimanche 28 juin,J.3,4h00,Algérie,Autriche,Algeria,Austria,96,103,107,35,46,19

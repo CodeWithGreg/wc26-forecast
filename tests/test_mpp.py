@@ -55,3 +55,33 @@ def test_picks_table_x2_on_max_expected_points():
     starred = t[t["x2_booster"] != ""]
     assert len(starred) == 1
     assert starred["expected_points"].iloc[0] == t["expected_points"].max()
+
+
+def test_market_blend_pulls_outcome_probs_toward_market():
+    from wcforecast.models.poisson_core import outcome_probs as op
+    from wcforecast.mpp.optimizer import blend_matrix_to_market
+
+    f = _forecast(1.2, 1.2)  # model: roughly symmetric
+    market = np.array([0.70, 0.18, 0.12])  # market: strong home favourite
+    blended = blend_matrix_to_market(f.matrix, market, w_model=0.35)
+    ph_model = op(f.matrix)[0]
+    ph_blend = op(blended)[0]
+    assert ph_model < ph_blend < market[0]
+    assert np.isclose(blended.sum(), 1.0)
+
+
+def test_safe_tie_margin_prefers_modal_outcome_at_near_equal_ev():
+    """When EV is close, the variance tie-breaker must side with the
+    blended modal outcome; with the margin disabled, raw EV-max rules."""
+    f = _forecast(1.5, 1.1)
+    odds = (1.5, 17.9, 22.2)  # extreme draw payout (à la giant vs minnow)
+    raw = optimal_pick(f, MppRules(safe_tie_margin=1.0), odds=odds)
+    wide = optimal_pick(f, MppRules(safe_tie_margin=3.0), odds=odds)
+    assert wide["best"]["outcome"] == "H"  # huge margin forces modal pick
+    assert raw["ev_best"]["expected_points"] >= wide["best"]["expected_points"]
+
+
+def test_ev_best_always_reported():
+    f = _forecast(2.0, 0.8)
+    r = optimal_pick(f, MppRules(), odds=(1.8, 4.0, 6.0))
+    assert r["ev_best"]["expected_points"] >= r["best"]["expected_points"] - 1e-9

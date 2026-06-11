@@ -1,0 +1,72 @@
+day,round,time_fr,home_fr,away_fr,pick_mpp,pick_home_goals,pick_away_goals,expected_points,ev_pick,ev_points,safe_rule_applied,p_outcome_blend,outcome_pts,p_exact,bonus,mpp_pts,crowd_pct
+Vendredi 12 juin,J.1,4h00,Corée du Sud,Tchéquie,2-1,2,1,36.9,2-1,36.9,False,0.361,96,0.0752,30,96/107/91,31/50/19
+Vendredi 12 juin,J.1,21h00,Canada,Bosnie,2-1,2,1,38.8,2-1,38.8,False,0.538,65,0.0776,50,65/117/125,60/23/17
+Samedi 13 juin,J.1,3h00,États-Unis,Paraguay,2-1,2,1,35.3,2-1,35.3,False,0.442,74,0.0858,30,74/113/115,63/21/16
+Samedi 13 juin,J.1,21h00,Qatar,Suisse,0-3,0,3,26.7,0-0,28.3,True,0.682,33,0.0843,50,172/141/33,6/7/87
+Dimanche 14 juin,J.1,0h00,Brésil,Maroc,0-2,0,2,37.8,0-2,37.8,False,0.253,140,0.0481,50,55/122/140,51/31/19
+Dimanche 14 juin,J.1,3h00,Haïti,Écosse,2-0,2,0,35.3,2-0,35.3,False,0.218,154,0.0357,50,154/131/44,4/9/87
+Dimanche 14 juin,J.1,6h00,Australie,Turquie,2-1,2,1,39.1,2-1,39.1,False,0.296,126,0.0621,30,126/115/66,9/23/68
+Dimanche 14 juin,J.1,19h00,Allemagne,Curaçao,3-0,3,0,17.7,0-0,18.6,True,0.831,15,0.1044,50,15/179/222,97/2/1
+Dimanche 14 juin,J.1,22h00,Pays-Bas,Japon,0-2,0,2,38.9,0-2,38.9,False,0.319,113,0.0569,50,74/115/113,61/25/14
+Lundi 15 juin,J.1,1h00,Côte d’Ivoire,Équateur,0-2,0,2,36.0,0-2,36.0,False,0.378,85,0.0784,50,108/101/85,43/42/14
+Lundi 15 juin,J.1,4h00,Suède,Tunisie,1-2,1,2,39.0,1-2,39.0,False,0.304,122,0.063,30,72/110/122,62/27/11
+Lundi 15 juin,J.1,18h00,Espagne,Cap-Vert,3-0,3,0,18.6,0-0,19.7,True,0.813,16,0.1114,50,16/166/217,98/1/1
+Lundi 15 juin,J.1,21h00,Belgique,Égypte,2-0,2,0,32.7,0-0,34.7,True,0.518,57,0.1078,30,57/122/135,80/15/5
+Mardi 16 juin,J.1,0h00,Arabie saoudite,Uruguay,1-2,1,2,31.8,0-0,33.7,True,0.548,50,0.0889,50,146/125/50,6/14/81
+Mardi 16 juin,J.1,3h00,Iran,Nouvelle-Zélande,2-0,2,0,36.7,2-0,36.7,False,0.533,63,0.1055,30,63/116/130,36/44/20
+Mardi 16 juin,J.1,21h00,France,Sénégal,0-2,0,2,33.4,0-2,33.4,False,0.207,153,0.0353,50,46/128/153,88/9/3
+Mercredi 17 juin,J.1,0h00,Irak,Norvège,0-0,0,0,29.4,0-0,29.4,False,0.189,144,0.0721,30,178/144/30,2/6/92
+Mercredi 17 juin,J.1,3h00,Argentine,Algérie,2-0,2,0,29.3,0-0,31.5,True,0.597,43,0.1201,30,43/129/159,80/14/6
+Mercredi 17 juin,J.1,6h00,Autriche,Jordanie,0-0,0,0,31.2,0-0,31.2,False,0.205,136,0.065,50,38/136/163,84/13/3
+Mercredi 17 juin,J.1,19h00,Portugal,RD Congo,0-0,0,0,30.3,0-0,30.3,False,0.199,140,0.0838,30,34/140/170,96/3/1
+Mercredi 17 juin,J.1,22h00,Angleterre,Croatie,2-0,2,0,33.3,0-0,34.1,True,0.512,59,0.1042,30,59/119/133,57/35/8
+Jeudi 18 juin,J.1,1h00,Ghana,Panama,0-3,0,3,40.0,0-3,40.0,False,0.328,116,0.0285,70,73/113/116,60/33/7
+Jeudi 18 juin,J.1,4h00,Ouzbékistan,Colombie,0-3,0,3,30.3,0-0,32.2,True,0.589,44,0.0626,70,157/130/44,3/7/90
+Jeudi 18 juin,J.2,18h00,Tchéquie,Afrique du Sud,0-2,0,2,36.1,0-2,36.1,False,0.239,142,0.0425,50,62/112/142,56/28/16
+Jeudi 18 juin,J.2,21h00,Suisse,Bosnie,2-0,2,0,40.0,2-0,40.0,False,0.488,76,0.0958,30,76/108/134,77/19/5
+Vendredi 19 juin,J.2,0h00,Canada,Qatar,3-0,3,0,43.7,3-0,43.7,False,0.56,71,0.078,50,71/104/148,78/16/6
+Vendredi 19 juin,J.2,3h00,Mexique,Corée du Sud,2-0,2,0,36.7,2-0,36.7,False,0.49,69,0.0961,30,69/117/129,61/28/12
+Vendredi 19 juin,J.2,21h00,États-Unis,Australie,0-2,0,2,40.0,0-2,40.0,False,0.248,153,0.042,50,58/119/153,67/24/9
+Samedi 20 juin,J.2,0h00,Écosse,Maroc,0-3,0,3,42.3,0-3,42.3,False,0.429,91,0.0467,70,99/112/91,7/24/70
+Samedi 20 juin,J.2,2h30,Brésil,Haïti,0-0,0,0,23.4,0-0,23.4,False,0.13,167,0.0341,50,21/167/198,97/2/1
+Samedi 20 juin,J.2,5h00,Turquie,Paraguay,2-1,2,1,36.6,0-2,39.5,True,0.406,84,0.0834,30,84/113/126,59/30/11
+Samedi 20 juin,J.2,19h00,Pays-Bas,Suède,3-0,3,0,38.7,3-0,38.7,False,0.533,67,0.0607,50,67/122/131,65/28/7
+Samedi 20 juin,J.2,22h00,Allemagne,Côte d’Ivoire,0-2,0,2,32.3,0-2,32.3,False,0.188,164,0.0313,50,38/137/164,81/13/6
+Dimanche 21 juin,J.2,2h00,Équateur,Curaçao,2-1,2,1,30.9,0-0,31.8,True,0.638,41,0.0938,50,41/143/168,85/12/3
+Dimanche 21 juin,J.2,6h00,Tunisie,Japon,0-2,0,2,43.1,0-2,43.1,False,0.443,91,0.0934,30,118/103/91,15/29/56
+Dimanche 21 juin,J.2,18h00,Espagne,Arabie saoudite,3-0,3,0,26.6,3-0,26.6,False,0.705,31,0.0951,50,31/139/176,97/2/1
+Dimanche 21 juin,J.2,21h00,Belgique,Iran,0-2,0,2,35.7,0-2,35.7,False,0.199,171,0.0345,50,39/138/171,93/5/2
+Lundi 22 juin,J.2,0h00,Uruguay,Cap-Vert,2-1,2,1,38.4,2-1,38.4,False,0.479,72,0.077,50,72/109/137,87/10/3
+Lundi 22 juin,J.2,3h00,Nouvelle-Zélande,Égypte,0-3,0,3,33.5,0-0,35.3,True,0.509,59,0.049,70,148/116/59,10/20/70
+Lundi 22 juin,J.2,19h00,Argentine,Autriche,2-0,2,0,35.5,2-0,35.5,False,0.514,63,0.1051,30,63/105/132,85/12/3
+Lundi 22 juin,J.2,23h00,France,Irak,0-0,0,0,25.9,0-0,25.9,False,0.146,166,0.057,30,22/166/189,98/1/1
+Mardi 23 juin,J.2,2h00,Norvège,Sénégal,0-2,0,2,38.8,0-2,38.8,False,0.265,137,0.0484,50,64/105/137,34/42/25
+Mardi 23 juin,J.2,5h00,Jordanie,Algérie,0-3,0,3,40.1,0-3,40.1,False,0.551,67,0.0636,50,152/139/67,4/13/83
+Mardi 23 juin,J.2,19h00,Portugal,Ouzbékistan,0-0,0,0,26.6,0-0,26.6,False,0.161,154,0.0591,30,24/154/173,97/2/1
+Mardi 23 juin,J.2,22h00,Angleterre,Ghana,3-0,3,0,33.1,3-0,33.1,False,0.649,44,0.0913,50,44/127/162,89/8/3
+Mercredi 24 juin,J.2,1h00,Panama,Croatie,2-0,2,0,29.3,2-0,29.3,False,0.169,165,0.0261,50,165/123/36,3/7/89
+Mercredi 24 juin,J.2,4h00,Colombie,RD Congo,2-1,2,1,40.0,2-1,40.0,False,0.471,77,0.0734,50,77/111/123,71/23/6
+Mercredi 24 juin,J.3,21h00,Suisse,Canada,1-2,1,2,40.7,1-2,40.7,False,0.301,129,0.0608,30,68/106/129,54/38/8
+Mercredi 24 juin,J.3,21h00,Bosnie,Qatar,2-1,2,1,36.7,0-2,37.5,True,0.395,87,0.0802,30,87/102/120,56/33/11
+Jeudi 25 juin,J.3,0h00,Écosse,Brésil,0-3,0,3,31.7,0-3,31.7,False,0.589,48,0.068,50,145/124/48,4/8/88
+Jeudi 25 juin,J.3,0h00,Maroc,Haïti,2-1,2,1,25.7,0-0,28.3,True,0.706,29,0.1052,50,29/159/187,95/3/2
+Jeudi 25 juin,J.3,3h00,Tchéquie,Mexique,0-2,0,2,41.4,0-2,41.4,False,0.429,91,0.0803,30,109/99/91,10/43/47
+Jeudi 25 juin,J.3,3h00,Afrique du Sud,Corée du Sud,0-3,0,3,39.2,0-3,39.2,False,0.418,87,0.0401,70,117/103/87,15/34/51
+Jeudi 25 juin,J.3,22h00,Équateur,Allemagne,2-0,2,0,33.8,2-0,33.8,False,0.219,145,0.0398,50,145/129/42,4/12/84
+Jeudi 25 juin,J.3,22h00,Curaçao,Côte d’Ivoire,0-3,0,3,34.0,0-3,34.0,False,0.577,53,0.0684,50,163/118/53,3/7/90
+Vendredi 26 juin,J.3,1h00,Tunisie,Pays-Bas,0-3,0,3,34.2,0-3,34.2,False,0.537,56,0.0583,70,131/123/56,5/14/81
+Vendredi 26 juin,J.3,1h00,Japon,Suède,3-0,3,0,46.9,3-0,46.9,False,0.46,96,0.0552,50,96/108/111,32/47/20
+Vendredi 26 juin,J.3,4h00,Turquie,États-Unis,1-3,1,3,38.2,1-3,38.2,False,0.387,93,0.0435,50,109/102/93,33/42/25
+Vendredi 26 juin,J.3,4h00,Paraguay,Australie,0-1,0,1,41.1,0-1,41.1,False,0.299,131,0.1013,20,74/104/131,53/33/14
+Vendredi 26 juin,J.3,21h00,Norvège,France,0-3,0,3,35.2,2-0,36.2,True,0.472,68,0.0438,70,141/108/68,5/18/77
+Vendredi 26 juin,J.3,21h00,Sénégal,Irak,2-1,2,1,33.0,1-1,33.1,True,0.53,54,0.0875,50,54/115/149,91/6/2
+Samedi 27 juin,J.3,2h00,Uruguay,Espagne,0-3,0,3,33.8,0-3,33.8,False,0.525,57,0.0553,70,143/112/57,3/14/83
+Samedi 27 juin,J.3,2h00,Cap-Vert,Arabie saoudite,0-2,0,2,38.2,0-0,39.4,True,0.367,94,0.0727,50,99/123/94,14/55/31
+Samedi 27 juin,J.3,5h00,Nouvelle-Zélande,Belgique,0-3,0,3,26.8,0-3,26.8,False,0.697,32,0.0901,50,172/129/32,3/5/92
+Samedi 27 juin,J.3,5h00,Égypte,Iran,0-1,0,1,42.9,0-1,42.9,False,0.331,123,0.1131,20,85/114/123,65/29/6
+Samedi 27 juin,J.3,23h00,Panama,Angleterre,0-3,0,3,26.7,0-3,26.7,False,0.694,32,0.0903,50,168/137/32,2/3/94
+Samedi 27 juin,J.3,23h00,Croatie,Ghana,2-0,2,0,34.7,2-0,34.7,False,0.551,57,0.1086,30,57/120/138,73/21/6
+Dimanche 28 juin,J.3,1h30,Colombie,Portugal,1-0,1,0,37.5,1-0,37.5,False,0.236,154,0.0619,20,154/102/55,5/19/76
+Dimanche 28 juin,J.3,1h30,RD Congo,Ouzbékistan,0-2,0,2,42.6,0-2,42.6,False,0.253,158,0.0523,50,63/107/158,63/30/7
+Dimanche 28 juin,J.3,4h00,Jordanie,Argentine,0-3,0,3,28.8,0-3,28.8,False,0.734,32,0.107,50,165/145/32,2/3/95
+Dimanche 28 juin,J.3,4h00,Algérie,Autriche,2-1,2,1,37.4,2-1,37.4,False,0.365,96,0.0758,30,96/103/107,35/46/19

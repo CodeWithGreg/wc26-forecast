@@ -57,6 +57,44 @@ class MppRules:
     crowd_sharpening: float = 1.30  # β: crowd over-concentration on favourites
     max_pick_goals: int = 5  # never pick anything wilder than 5 goals a side
     margin: float = 0.0  # bookmaker-style margin if emulating MPP odds
+    #: log-pool weight on the *model* when blending with market-implied 1X2
+    #: probabilities before optimising. Markets are sharper than the model at
+    #: WC level (backtest log-loss ~0.99 vs ~0.95 for odds markets, BENCHMARK
+    #: §6.2), so an expected-points maximiser that trusts raw model
+    #: probabilities over-bets every model-vs-market disagreement. w≈1/3
+    #: roughly matches the relative information content. Set to 1.0 to trust
+    #: the model fully, 0.0 to defer to the market entirely.
+    model_weight_vs_market: float = 0.35
+    #: variance tie-breaker: if the EV-optimal pick's outcome differs from the
+    #: blended modal outcome but its expected points exceed the best
+    #: modal-outcome pick by less than this factor, take the modal pick.
+    #: Rationale: at near-equal EV the lower-variance, higher-hit-rate pick
+    #: dominates for league play. Set to 1.0 to disable.
+    safe_tie_margin: float = 1.10
+
+
+def blend_matrix_to_market(matrix: np.ndarray, market_probs: np.ndarray, w_model: float) -> np.ndarray:
+    """Reshape a scoreline matrix so its 1X2 margins match a model/market blend.
+
+    The 1X2 probabilities are combined on the log scale,
+    ``p* ∝ p_model^w · p_market^(1-w)``, and the matrix mass inside each
+    outcome region (home win / draw / away win) is rescaled to the blended
+    probability — the *conditional scoreline shape within each outcome*
+    remains the model's, which is the part markets do not price.
+    """
+    p_model = np.asarray(outcome_probs(matrix))
+    p_mkt = np.clip(np.asarray(market_probs, dtype=float), 1e-6, None)
+    p_mkt = p_mkt / p_mkt.sum()
+    p_star = np.exp(w_model * np.log(np.clip(p_model, 1e-9, None)) + (1 - w_model) * np.log(p_mkt))
+    p_star = p_star / p_star.sum()
+    g = matrix.shape[0]
+    region = np.zeros((g, g), dtype=int)  # 0 home, 1 draw, 2 away
+    iu = np.triu_indices(g, 1)
+    region[iu] = 2
+    region[np.diag_indices(g)] = 1
+    scale = np.array([p_star[k] / max(p_model[k], 1e-9) for k in range(3)])
+    out = matrix * scale[region]
+    return out / out.sum()
 
 
 def crowd_distribution(matrix: np.ndarray, rules: MppRules) -> np.ndarray:
@@ -101,6 +139,10 @@ def optimal_pick(
     """
     rules = rules or MppRules()
     m = forecast.matrix
+    if odds is not None and rules.model_weight_vs_market < 1.0:
+        # blend with the market implied by the supplied odds (margin removed)
+        m = blend_matrix_to_market(m, 1.0 / np.asarray(odds, dtype=float),
+                                   rules.model_weight_vs_market)
     p_out = outcome_probs(m)
     pts_out = outcome_points(p_out, rules, odds)
     crowd = crowd_distribution(m, rules)
@@ -123,10 +165,18 @@ def optimal_pick(
                 "expected_points": float(exp_pts),
             })
     cands.sort(key=lambda c: -c["expected_points"])
+    best = cands[0]
+    # variance tie-breaker: prefer the modal-outcome pick at near-equal EV
+    modal = "HDA"[int(np.argmax(p_out))]
+    if best["outcome"] != modal and rules.safe_tie_margin > 1.0:
+        best_modal = next((c for c in cands if c["outcome"] == modal), None)
+        if best_modal and best["expected_points"] < rules.safe_tie_margin * best_modal["expected_points"]:
+            best = best_modal
     ml = forecast.most_likely_score()
     return {
-        "best": cands[0],
-        "alternatives": cands[1:top_k],
+        "best": best,
+        "ev_best": cands[0],
+        "alternatives": [c for c in cands[:top_k + 1] if c is not best][:top_k - 1],
         "most_likely_score": {"score": f"{ml[0]}-{ml[1]}", "p": ml[2]},
         "p_outcomes": p_out,
         "outcome_points": pts_out.tolist(),

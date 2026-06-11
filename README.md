@@ -130,11 +130,27 @@ result. The optimal pick maximises expected points, not probability:
 `E[pts | pick s] = P(result(s)) · pts(result(s)) + P(s) · bonus(s)`
 
 with an explicit crowd model (forecast sharpened by β=1.3 × popularity prior
-on human scorelines). Consequences the optimiser discovers by itself: draws
-become attractive in coin-flip matches (three-way odds ≈ 35 pts), favourites
-get slightly bolder scorelines than the modal one (rarity bonus), and the X2
-booster goes on the highest-E[pts] match. Pass the app's real odds with
-`--odds-file` for exact optimisation; otherwise model fair odds are used.
+on human scorelines). Two safeguards make the optimiser robust in practice:
+
+* **Market blending** — when real MPP points are supplied, 1X2 probabilities
+  are log-pooled with the market-implied ones (`model_weight_vs_market=0.35`,
+  calibrated to the backtest gap between the model, ~0.99 log-loss, and odds
+  markets, ~0.95). A raw E[pts] maximiser would otherwise over-bet every
+  model-vs-market disagreement. The within-outcome scoreline shape — which
+  markets do not price — stays the model's.
+* **Variance tie-breaker** — if the EV-best pick backs a different outcome
+  than the blended modal one but leads by less than `safe_tie_margin=1.10`,
+  the modal-outcome pick is taken: at near-equal EV the higher-hit-rate,
+  lower-variance pick dominates for league play (relevant on giant-vs-minnow
+  matches, where MPP's payout table makes longshot draws near-EV-optimal).
+
+Other consequences the optimiser discovers by itself: draws survive only on
+genuine edges, favourites get slightly bolder scorelines than the modal one
+(rarity bonus), and the X2 booster goes on the highest-E[pts] match. Pass
+the app's real points with `--odds-file` (odds = points/10); otherwise model
+fair odds are used and the CLI says so. A worked example against the real
+WC 2026 matchday points lives in `predictions/mpp_picks_real_odds.csv`,
+with the scraped points snapshot in `predictions/mpp_odds_snapshot.csv`.
 
 ## Honest limitations
 
