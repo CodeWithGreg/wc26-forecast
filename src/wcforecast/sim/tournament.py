@@ -26,8 +26,8 @@ for matches whose participants are not known yet (e.g. the final).
 from __future__ import annotations
 
 from collections import Counter
+from collections.abc import Callable
 from dataclasses import dataclass, field
-from typing import Callable
 
 import numpy as np
 import pandas as pd
@@ -72,7 +72,7 @@ class SimResults:
         return pd.DataFrame(rows)
 
     @staticmethod
-    def merge(parts: list["SimResults"]) -> "SimResults":
+    def merge(parts: list[SimResults]) -> SimResults:
         """Combine independent simulation batches (e.g. chunked runs)."""
         assert parts, "nothing to merge"
         base = parts[0]
@@ -182,8 +182,7 @@ class TournamentSimulator:
         t_gf = np.stack([third_stats[g][3] for g in letters])
         lots = rng.random((n_groups, n_sims))
         t_key = t_pts * 1e7 + (t_gd + 200) * 1e4 + t_gf * 10 + lots
-        t_order = np.argsort(-t_key, axis=0)  # group indices ranked
-        qualified_third = t_order[:8]  # (8, n_sims) group-letter indices
+        t_order = np.argsort(-t_key, axis=0)  # group indices ranked; top 8 qualify
 
         third_slots = [m for m in self.bracket if m.away.startswith("3?")]
         slot_allowed = {m.match: set(m.away[2:]) for m in third_slots}
@@ -203,7 +202,7 @@ class TournamentSimulator:
         # ---- per-sim knockout ----------------------------------------------
         for s_i in range(n_sims):
             slots: dict[str, str] = {}
-            for gi, g in enumerate(letters):
+            for g in letters:
                 slots[f"1{g}"] = members[g][first[g][s_i]]
                 slots[f"2{g}"] = members[g][second[g][s_i]]
             # third-place allocation: backtracking perfect matching
@@ -316,7 +315,7 @@ def _match_thirds(slot_ids: list[int], slot_allowed: dict[int, set], qual_groups
 def slot_forecast(
     sim: SimResults,
     match_no: int,
-    forecast_fn: Callable[[str, str, bool], "object"],
+    forecast_fn: Callable[[str, str, bool], object],
     top_k: int = 8,
 ) -> dict:
     """Forecast a future match whose participants are not yet known.

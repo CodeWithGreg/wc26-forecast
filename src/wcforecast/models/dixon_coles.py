@@ -42,7 +42,6 @@ import numpy as np
 import pandas as pd
 import scipy.sparse as sp
 from scipy.optimize import minimize, minimize_scalar
-from scipy.stats import poisson
 
 from wcforecast.config import DixonColesConfig, get_settings
 from wcforecast.models.poisson_core import MatchForecast, mixture_score_matrix, score_matrix
@@ -65,7 +64,7 @@ class DixonColesModel:
     cutoff_: pd.Timestamp = None
 
     # ------------------------------------------------------------------ fit
-    def fit(self, results: pd.DataFrame, cutoff: pd.Timestamp | str | None = None) -> "DixonColesModel":
+    def fit(self, results: pd.DataFrame, cutoff: pd.Timestamp | str | None = None) -> DixonColesModel:
         """Fit on matches strictly before ``cutoff`` (default: end of data)."""
         cfg = self.config
         df = results.copy()
@@ -257,5 +256,5 @@ class DixonColesModel:
         joblib.dump(self, path)
 
     @staticmethod
-    def load(path) -> "DixonColesModel":
+    def load(path) -> DixonColesModel:
         return joblib.load(path)

@@ -29,7 +29,7 @@ model. Points are odds × 10, the MPP display convention.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 import numpy as np
 import pandas as pd

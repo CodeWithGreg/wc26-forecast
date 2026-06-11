@@ -39,7 +39,7 @@ class EloPoissonBaseline:
     b1_: float = 0.6
     b2_: float = 0.25
 
-    def fit(self, training_table: pd.DataFrame) -> "EloPoissonBaseline":
+    def fit(self, training_table: pd.DataFrame) -> EloPoissonBaseline:
         d = training_table.dropna(subset=["home_score", "away_score"])
         de = (d["elo_home"].to_numpy() - d["elo_away"].to_numpy()) / 400.0
         home = (~d["neutral"].to_numpy()).astype(float)

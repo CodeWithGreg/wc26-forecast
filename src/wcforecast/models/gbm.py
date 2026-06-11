@@ -45,7 +45,7 @@ class GbmGoalModel:
     best_iteration_: int = 0
     feature_names_: list[str] = field(default_factory=lambda: list(FEATURE_COLUMNS))
 
-    def fit(self, training_table: pd.DataFrame, cutoff: pd.Timestamp | str | None = None) -> "GbmGoalModel":
+    def fit(self, training_table: pd.DataFrame, cutoff: pd.Timestamp | str | None = None) -> GbmGoalModel:
         cfg = self.config
         df = training_table
         cutoff = pd.Timestamp(cutoff) if cutoff is not None else df["date"].max() + pd.Timedelta(days=1)
@@ -126,5 +126,5 @@ class GbmGoalModel:
         joblib.dump(self, path)
 
     @staticmethod
-    def load(path) -> "GbmGoalModel":
+    def load(path) -> GbmGoalModel:
         return joblib.load(path)

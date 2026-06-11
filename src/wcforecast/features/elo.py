@@ -68,7 +68,7 @@ class EloEngine:
         self.ratings[home] = rh + delta
         self.ratings[away] = ra - delta
 
-    def fit(self, results: pd.DataFrame) -> "EloEngine":
+    def fit(self, results: pd.DataFrame) -> EloEngine:
         """Replay ``results`` (sorted by date) and record pre-match ratings."""
         results = results.sort_values("date")
         pre_h = np.empty(len(results))

@@ -16,3 +16,5 @@ data/raw/
 .venv/
 venv/
 .env
+pytest-cache-files-*
+.virtual_documents/

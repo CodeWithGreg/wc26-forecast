@@ -45,7 +45,7 @@ class MatchPredictor:
     # ------------------------------------------------------------ training
     @classmethod
     def fit(cls, results: pd.DataFrame, weight_dc: float | None = None,
-            cutoff: pd.Timestamp | str | None = None, verbose: bool = True) -> "MatchPredictor":
+            cutoff: pd.Timestamp | str | None = None, verbose: bool = True) -> MatchPredictor:
         """Fit both component models on ``results`` (strictly pre-``cutoff``)."""
         s = get_settings()
         if verbose:
@@ -77,7 +77,7 @@ class MatchPredictor:
         return d / "predictor.joblib"
 
     @classmethod
-    def load(cls, directory: Path | None = None) -> "MatchPredictor":
+    def load(cls, directory: Path | None = None) -> MatchPredictor:
         d = directory or get_settings().artifacts_dir
         blob = joblib.load(d / "predictor.joblib")
         return cls(dc=blob["dc"], gbm=blob["gbm"], weight_dc=blob["weight_dc"], results=blob["results"])
