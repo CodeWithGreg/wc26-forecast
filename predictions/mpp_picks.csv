@@ -1,0 +1,13 @@
+home_team,away_team,pick,expected_points,pick_outcome,p_outcome,outcome_pts,p_exact,bonus_if_exact,most_likely_score,alt_pick,x2_booster
+Mexico,South Africa,2-1,14.43,H,0.622,16.0,0.0895,50.0,1-0,2-0,
+South Korea,Czech Republic,0-0,14.27,D,0.276,36.0,0.0867,50.0,1-1,0-2,
+Canada,Bosnia and Herzegovina,2-1,14.74,H,0.635,16.0,0.0916,50.0,1-0,3-0,
+United States,Paraguay,0-0,12.7,D,0.272,37.0,0.0882,30.0,1-1,2-1,
+Australia,Turkey,0-2,12.84,A,0.332,30.0,0.0578,50.0,1-1,0-0,
+Brazil,Morocco,0-0,13.56,D,0.302,33.0,0.1202,30.0,1-1,0-2,
+Haiti,Scotland,0-0,13.86,D,0.265,38.0,0.0757,50.0,1-1,2-2,
+Qatar,Switzerland,0-3,14.3,A,0.645,16.0,0.0797,50.0,0-2,0-2,
+Sweden,Tunisia,0-0,13.04,D,0.287,35.0,0.1,30.0,1-1,1-1,
+Netherlands,Japan,0-0,14.26,D,0.276,36.0,0.0864,50.0,1-1,0-2,
+Germany,Curaçao,3-0,14.98,H,0.738,14.0,0.0928,50.0,2-0,4-0,X2 ◀
+Ivory Coast,Ecuador,0-2,13.93,A,0.373,27.0,0.0773,50.0,0-0,0-0,
