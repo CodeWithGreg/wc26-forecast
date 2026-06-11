@@ -1,0 +1,73 @@
+date,home_team,away_team,group,city,country,neutral
+2026-06-11,Mexico,South Africa,A,Mexico City,Mexico,FALSE
+2026-06-11,South Korea,Czech Republic,A,Zapopan,Mexico,TRUE
+2026-06-12,Canada,Bosnia and Herzegovina,B,Toronto,Canada,FALSE
+2026-06-12,United States,Paraguay,D,Inglewood,United States,FALSE
+2026-06-13,Australia,Turkey,D,Vancouver,Canada,TRUE
+2026-06-13,Brazil,Morocco,C,East Rutherford,United States,TRUE
+2026-06-13,Haiti,Scotland,C,Foxborough,United States,TRUE
+2026-06-13,Qatar,Switzerland,B,Santa Clara,United States,TRUE
+2026-06-14,Germany,Curaçao,E,Houston,United States,TRUE
+2026-06-14,Ivory Coast,Ecuador,E,Philadelphia,United States,TRUE
+2026-06-14,Netherlands,Japan,F,Arlington,United States,TRUE
+2026-06-14,Sweden,Tunisia,F,Guadalupe,Mexico,TRUE
+2026-06-15,Belgium,Egypt,G,Seattle,United States,TRUE
+2026-06-15,Iran,New Zealand,G,Inglewood,United States,TRUE
+2026-06-15,Saudi Arabia,Uruguay,H,Miami Gardens,United States,TRUE
+2026-06-15,Spain,Cape Verde,H,Atlanta,United States,TRUE
+2026-06-16,Argentina,Algeria,J,Kansas City,United States,TRUE
+2026-06-16,Austria,Jordan,J,Santa Clara,United States,TRUE
+2026-06-16,France,Senegal,I,East Rutherford,United States,TRUE
+2026-06-16,Iraq,Norway,I,Foxborough,United States,TRUE
+2026-06-17,England,Croatia,L,Arlington,United States,TRUE
+2026-06-17,Ghana,Panama,L,Toronto,Canada,TRUE
+2026-06-17,Portugal,DR Congo,K,Houston,United States,TRUE
+2026-06-17,Uzbekistan,Colombia,K,Mexico City,Mexico,TRUE
+2026-06-18,Canada,Qatar,B,Vancouver,Canada,FALSE
+2026-06-18,Czech Republic,South Africa,A,Atlanta,United States,TRUE
+2026-06-18,Mexico,South Korea,A,Zapopan,Mexico,FALSE
+2026-06-18,Switzerland,Bosnia and Herzegovina,B,Inglewood,United States,TRUE
+2026-06-19,Brazil,Haiti,C,Philadelphia,United States,TRUE
+2026-06-19,Scotland,Morocco,C,Foxborough,United States,TRUE
+2026-06-19,Turkey,Paraguay,D,Santa Clara,United States,TRUE
+2026-06-19,United States,Australia,D,Seattle,United States,FALSE
+2026-06-20,Ecuador,Curaçao,E,Kansas City,United States,TRUE
+2026-06-20,Germany,Ivory Coast,E,Toronto,Canada,TRUE
+2026-06-20,Netherlands,Sweden,F,Houston,United States,TRUE
+2026-06-20,Tunisia,Japan,F,Guadalupe,Mexico,TRUE
+2026-06-21,Belgium,Iran,G,Inglewood,United States,TRUE
+2026-06-21,New Zealand,Egypt,G,Vancouver,Canada,TRUE
+2026-06-21,Spain,Saudi Arabia,H,Atlanta,United States,TRUE
+2026-06-21,Uruguay,Cape Verde,H,Miami Gardens,United States,TRUE
+2026-06-22,Argentina,Austria,J,Arlington,United States,TRUE
+2026-06-22,France,Iraq,I,Philadelphia,United States,TRUE
+2026-06-22,Jordan,Algeria,J,Santa Clara,United States,TRUE
+2026-06-22,Norway,Senegal,I,East Rutherford,United States,TRUE
+2026-06-23,Colombia,DR Congo,K,Zapopan,Mexico,TRUE
+2026-06-23,England,Ghana,L,Foxborough,United States,TRUE
+2026-06-23,Panama,Croatia,L,Toronto,Canada,TRUE
+2026-06-23,Portugal,Uzbekistan,K,Houston,United States,TRUE
+2026-06-24,Bosnia and Herzegovina,Qatar,B,Seattle,United States,TRUE
+2026-06-24,Canada,Switzerland,B,Vancouver,Canada,FALSE
+2026-06-24,Mexico,Czech Republic,A,Mexico City,Mexico,FALSE
+2026-06-24,Morocco,Haiti,C,Atlanta,United States,TRUE
+2026-06-24,Scotland,Brazil,C,Miami Gardens,United States,TRUE
+2026-06-24,South Africa,South Korea,A,Guadalupe,Mexico,TRUE
+2026-06-25,Curaçao,Ivory Coast,E,Philadelphia,United States,TRUE
+2026-06-25,Ecuador,Germany,E,East Rutherford,United States,TRUE
+2026-06-25,Japan,Sweden,F,Arlington,United States,TRUE
+2026-06-25,Paraguay,Australia,D,Santa Clara,United States,TRUE
+2026-06-25,Tunisia,Netherlands,F,Kansas City,United States,TRUE
+2026-06-25,United States,Turkey,D,Inglewood,United States,FALSE
+2026-06-26,Cape Verde,Saudi Arabia,H,Houston,United States,TRUE
+2026-06-26,Egypt,Iran,G,Seattle,United States,TRUE
+2026-06-26,New Zealand,Belgium,G,Vancouver,Canada,TRUE
+2026-06-26,Norway,France,I,Foxborough,United States,TRUE
+2026-06-26,Senegal,Iraq,I,Toronto,Canada,TRUE
+2026-06-26,Uruguay,Spain,H,Zapopan,Mexico,TRUE
+2026-06-27,Algeria,Austria,J,Kansas City,United States,TRUE
+2026-06-27,Colombia,Portugal,K,Miami Gardens,United States,TRUE
+2026-06-27,Croatia,Ghana,L,Philadelphia,United States,TRUE
+2026-06-27,DR Congo,Uzbekistan,K,Atlanta,United States,TRUE
+2026-06-27,Jordan,Argentina,J,Arlington,United States,TRUE
+2026-06-27,Panama,England,L,East Rutherford,United States,TRUE

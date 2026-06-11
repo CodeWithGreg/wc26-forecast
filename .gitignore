@@ -1,0 +1,18 @@
+# build / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# local model artifacts and scratch outputs (committed reports live in predictions/ and reports/)
+artifacts/
+data/raw/
+
+# envs
+.venv/
+venv/
+.env

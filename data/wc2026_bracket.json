@@ -1,0 +1,258 @@
+[
+ {
+  "match": 73,
+  "stage": "R32",
+  "date": "2026-06-28",
+  "home": "2A",
+  "away": "2B",
+  "venue": "Los Angeles"
+ },
+ {
+  "match": 74,
+  "stage": "R32",
+  "date": "2026-06-29",
+  "home": "1E",
+  "away": "3?ABCDF",
+  "venue": "Boston"
+ },
+ {
+  "match": 75,
+  "stage": "R32",
+  "date": "2026-06-29",
+  "home": "1F",
+  "away": "2C",
+  "venue": "Monterrey"
+ },
+ {
+  "match": 76,
+  "stage": "R32",
+  "date": "2026-06-29",
+  "home": "1C",
+  "away": "2F",
+  "venue": "Houston"
+ },
+ {
+  "match": 77,
+  "stage": "R32",
+  "date": "2026-06-30",
+  "home": "1I",
+  "away": "3?CDFGH",
+  "venue": "New York/New Jersey"
+ },
+ {
+  "match": 78,
+  "stage": "R32",
+  "date": "2026-06-30",
+  "home": "2E",
+  "away": "2I",
+  "venue": "Dallas"
+ },
+ {
+  "match": 79,
+  "stage": "R32",
+  "date": "2026-06-30",
+  "home": "1A",
+  "away": "3?CEFHI",
+  "venue": "Mexico City"
+ },
+ {
+  "match": 80,
+  "stage": "R32",
+  "date": "2026-07-01",
+  "home": "1L",
+  "away": "3?EHIJK",
+  "venue": "Atlanta"
+ },
+ {
+  "match": 81,
+  "stage": "R32",
+  "date": "2026-07-01",
+  "home": "1D",
+  "away": "3?BEFIJ",
+  "venue": "San Francisco Bay Area"
+ },
+ {
+  "match": 82,
+  "stage": "R32",
+  "date": "2026-07-01",
+  "home": "1G",
+  "away": "3?AEHIJ",
+  "venue": "Seattle"
+ },
+ {
+  "match": 83,
+  "stage": "R32",
+  "date": "2026-07-02",
+  "home": "2K",
+  "away": "2L",
+  "venue": "Toronto"
+ },
+ {
+  "match": 84,
+  "stage": "R32",
+  "date": "2026-07-02",
+  "home": "1H",
+  "away": "2J",
+  "venue": "Los Angeles"
+ },
+ {
+  "match": 85,
+  "stage": "R32",
+  "date": "2026-07-02",
+  "home": "1B",
+  "away": "3?EFGIJ",
+  "venue": "Vancouver"
+ },
+ {
+  "match": 86,
+  "stage": "R32",
+  "date": "2026-07-03",
+  "home": "1J",
+  "away": "2H",
+  "venue": "Miami"
+ },
+ {
+  "match": 87,
+  "stage": "R32",
+  "date": "2026-07-03",
+  "home": "1K",
+  "away": "3?DEIJL",
+  "venue": "Kansas City"
+ },
+ {
+  "match": 88,
+  "stage": "R32",
+  "date": "2026-07-03",
+  "home": "2D",
+  "away": "2G",
+  "venue": "Dallas"
+ },
+ {
+  "match": 89,
+  "stage": "R16",
+  "date": "2026-07-04",
+  "home": "W74",
+  "away": "W77",
+  "venue": "Philadelphia"
+ },
+ {
+  "match": 90,
+  "stage": "R16",
+  "date": "2026-07-04",
+  "home": "W73",
+  "away": "W75",
+  "venue": "Houston"
+ },
+ {
+  "match": 91,
+  "stage": "R16",
+  "date": "2026-07-05",
+  "home": "W76",
+  "away": "W78",
+  "venue": "New York/New Jersey"
+ },
+ {
+  "match": 92,
+  "stage": "R16",
+  "date": "2026-07-05",
+  "home": "W79",
+  "away": "W80",
+  "venue": "Mexico City"
+ },
+ {
+  "match": 93,
+  "stage": "R16",
+  "date": "2026-07-06",
+  "home": "W83",
+  "away": "W84",
+  "venue": "Dallas"
+ },
+ {
+  "match": 94,
+  "stage": "R16",
+  "date": "2026-07-06",
+  "home": "W81",
+  "away": "W82",
+  "venue": "Seattle"
+ },
+ {
+  "match": 95,
+  "stage": "R16",
+  "date": "2026-07-07",
+  "home": "W86",
+  "away": "W88",
+  "venue": "Atlanta"
+ },
+ {
+  "match": 96,
+  "stage": "R16",
+  "date": "2026-07-07",
+  "home": "W85",
+  "away": "W87",
+  "venue": "Vancouver"
+ },
+ {
+  "match": 97,
+  "stage": "QF",
+  "date": "2026-07-09",
+  "home": "W89",
+  "away": "W90",
+  "venue": "Boston"
+ },
+ {
+  "match": 98,
+  "stage": "QF",
+  "date": "2026-07-10",
+  "home": "W93",
+  "away": "W94",
+  "venue": "Los Angeles"
+ },
+ {
+  "match": 99,
+  "stage": "QF",
+  "date": "2026-07-11",
+  "home": "W91",
+  "away": "W92",
+  "venue": "Miami"
+ },
+ {
+  "match": 100,
+  "stage": "QF",
+  "date": "2026-07-11",
+  "home": "W95",
+  "away": "W96",
+  "venue": "Kansas City"
+ },
+ {
+  "match": 101,
+  "stage": "SF",
+  "date": "2026-07-14",
+  "home": "W97",
+  "away": "W98",
+  "venue": "Dallas"
+ },
+ {
+  "match": 102,
+  "stage": "SF",
+  "date": "2026-07-15",
+  "home": "W99",
+  "away": "W100",
+  "venue": "Atlanta"
+ },
+ {
+  "match": 103,
+  "stage": "THIRD",
+  "date": "2026-07-18",
+  "home": "L101",
+  "away": "L102",
+  "venue": "Miami"
+ },
+ {
+  "match": 104,
+  "stage": "FINAL",
+  "date": "2026-07-19",
+  "home": "W101",
+  "away": "W102",
+  "venue": "New York/New Jersey"
+ }
+]
