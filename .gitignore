@@ -18,3 +18,9 @@ venv/
 .env
 pytest-cache-files-*
 .virtual_documents/
+
+# macOS
+.DS_Store
+
+# local project instructions (not published)
+CLAUDE.md
