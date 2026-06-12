@@ -11,7 +11,7 @@ combined through a log-linear ensemble pool. Forecasts are full scoreline
 distributions, from which 1X2 probabilities, goal intervals, Monte-Carlo
 tournament simulations and Mon-Petit-Prono optimal picks are derived.
 
-Author: gclaus <https://www.linkedin.com/in/gregoireclaus/>
+Author: gclaus — https://www.linkedin.com/in/gregoireclaus/
 """
 
 __version__ = "0.1.0"

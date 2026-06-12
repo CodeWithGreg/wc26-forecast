@@ -5,7 +5,7 @@ tested Python package (`wcforecast`) with a CLI, honest backtests, uncertainty
 quantification, feature-contribution explanations, full-tournament Monte-Carlo
 simulation and a [Mon Petit Prono](https://mpp.football) pick optimiser.
 
-*Author: gclaus <https://www.linkedin.com/in/gregoireclaus/> · MIT · compiled on opening day, 2026-06-11.*
+*Author: [gclaus](https://www.linkedin.com/in/gregoireclaus/) · MIT · compiled on opening day, 2026-06-11.*
 
 ---
 

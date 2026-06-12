@@ -9,7 +9,7 @@ description = "Probabilistic score forecasting for the FIFA World Cup 2026 — D
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "gclaus", email = "https://www.linkedin.com/in/gregoireclaus/" }]
+authors = [{ name = "gclaus" }]
 keywords = ["football", "soccer", "forecasting", "world-cup", "poisson", "dixon-coles", "uncertainty"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -40,6 +40,7 @@ wcf = "wcforecast.cli:main"
 
 [project.urls]
 Repository = "https://github.com/CodeWithGreg/wc26-forecast"
+Author = "https://www.linkedin.com/in/gregoireclaus/"
 
 [tool.setuptools.packages.find]
 where = ["src"]
